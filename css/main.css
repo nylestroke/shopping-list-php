@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    background: radial-gradient(rgba(203, 182, 186, 0.64) 30%, rgba(222, 52, 74, 0.39) 70%);
+}
+
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
+
+.navbar-brand {
+    color: white!important;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+h5 {
+    margin-left: 8px;
+}
+
+.shopping-cart .subbtn {
+    margin-left: 0.5rem;
+}
+
+body {
+    background-color: #1b1b1b;
+}
+
+.navbar-brand span{
+    text-decoration: line-through;
+    color: #ec5050!important;
+    text-decoration-color: white!important;
+}
+
+.navbar-toggler-icon span{
+    background: white!important;
+}
+
+.bg-dark {
+    background-color: #2b2b2b!important;
+}
+
+.bg-black {
+    background-color: #1b1b1b!important;
+}
+
+.offcanvas-title {
+    color: white!important;
+}
+
+.btn-outline-success {
+    color: #ec5050!important;
+    border-color: #ec5050!important;
+}
+
+.btn-outline-success:active {
+    border-color: #ec5050!important;
+}
+
+.btn-outline-success:hover {
+    background: rgba(236, 80, 80, 0.27) !important;
+}
+
+.dropdown-item:active {
+    background: transparent!important;
+}
+
+.carousel-item img {
+    height: 500px!important;
+}
+
+.carousel-caption h5, p {
+    text-shadow: #1b1b1b 10px 4px 7px;
+    color: #ffffff;
+}
+
+#carouselExampleCaptions {
+    margin-bottom: 3rem;
+}
+
+.ous-products {
+    color: white;
+    font-weight: 700;
+    text-align: start;
+    margin: 16px;
+    font-size: 26px;
+}
+
+.slider-name {
+    color: white;
+    font-weight: 700;
+    margin: 16px;
+    font-size: 26px;
+}
+
+@media screen and (min-width: 800px) {
+    .navbar-brand {
+        margin-left: 40px;
+    }
+}
